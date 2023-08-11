@@ -5,7 +5,7 @@ const Links = ({children, link}) => {
         <li>
             <a href={link} target="_blank">{children}</a>
         </li>
-    )
-}
+    );
+};
 
 export default Links;

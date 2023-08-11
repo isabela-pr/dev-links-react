@@ -6,8 +6,7 @@ const Profile = ({children, imgSrc, imgAlt}) => {
             <img src={imgSrc} alt={imgAlt} />
             <p>{children}</p>
         </div>
-    )
-
-}
+    );
+};
 
 export default Profile;

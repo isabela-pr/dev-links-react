@@ -5,7 +5,7 @@ const SocialLinks = ({icon, href}) => {
         <a href={href} target="_blank">
             <ion-icon name = {icon} />
         </a>
-    )
-}
+    );
+};
 
 export default SocialLinks;

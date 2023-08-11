@@ -3,6 +3,7 @@ import Profile from "../components/profile/profile";
 import Switch from "../components/switch/switch";
 import Links from "../components/links/links";
 import SocialLinks from "../components/socialLinks/socialLinks";
+import Footer from "../components/footer/footer";
 
 import "./App.css";
 
@@ -33,6 +34,7 @@ const imgAlt = isLightMode ? "Imagem no Modo Claro" : "Imagem no Modo Escuro"
             <SocialLinks href={"#"} icon={"logo-tiktok"} />
             <SocialLinks href={"#"} icon={"logo-youtube"} />
           </div>
+          <Footer link={"#"}>@isabela-pr</Footer>
         </div>
     )
 }
