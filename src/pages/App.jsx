@@ -2,6 +2,7 @@ import { useState } from "react";
 import Profile from "../components/profile/profile";
 import Switch from "../components/switch/switch";
 import Links from "../components/links/links";
+import SocialLinks from "../components/socialLinks/socialLinks";
 
 import "./App.css";
 
@@ -25,6 +26,12 @@ const imgAlt = isLightMode ? "Imagem no Modo Claro" : "Imagem no Modo Escuro"
               <Links link={"#"}>Projetos</Links>
               
             </ul>
+          </div>
+          <div id="socialLinks">
+            <SocialLinks href={"#"} icon={"logo-github"} />
+            <SocialLinks href={"#"} icon={"logo-instagram"} />
+            <SocialLinks href={"#"} icon={"logo-tiktok"} />
+            <SocialLinks href={"#"} icon={"logo-youtube"} />
           </div>
         </div>
     )
