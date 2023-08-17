@@ -36,7 +36,7 @@ const App = () => {
           </ul>
         </div>
         <div id="socialLinks">
-          <SocialLinks href={"#"} icon={"logo-github"} />
+          <SocialLinks href={"https://github.com"} icon={"logo-github"} />
           <SocialLinks href={"#"} icon={"logo-instagram"} />
           <SocialLinks href={"#"} icon={"logo-tiktok"} />
           <SocialLinks href={"#"} icon={"logo-youtube"} />
